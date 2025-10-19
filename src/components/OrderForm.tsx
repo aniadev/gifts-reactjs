@@ -22,12 +22,13 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 const products = [
-  "Freeze Sô-cô-la",
-  "Freeze Trà Xanh", 
-  "Freeze Caramel",
-  "Freeze Dâu",
-  "Freeze Vanilla",
-  "Freeze Matcha",
+  "Highland Coffee",
+  "Phúc Long",
+  "Koithé",
+  "Phê la",
+  "Katinat",
+  "Gì cũng được",
+  "Khác",
 ];
 
 export default function OrderForm() {
@@ -69,9 +70,9 @@ export default function OrderForm() {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto p-6 space-y-6">
+    <div className="w-full max-w-md mx-auto p-6 space-y-4">
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3">
           <FormField
             control={form.control}
             name="customerName"
