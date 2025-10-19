@@ -102,4 +102,17 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  body::-webkit-scrollbar {
+    width: 3px;
+    height: 8px;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply bg-muted;
+    border-radius: 4px;
+  }
+  body::-webkit-scrollbar-track {
+    @apply bg-background;
+    border-radius: 4px;
+  }
 }
