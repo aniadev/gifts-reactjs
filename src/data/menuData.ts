@@ -1,10 +1,12 @@
 // Cấu trúc data cho menu các quán (Menu Data Construction)
 // Structure: Store -> Category -> Products
+import highlandMenu from './highland-menu.json';
 
 export type MenuItem = {
   imgUrl: string;
   name: string;
   price: string;
+  description?: string; // Thêm description từ Highland data
 };
 
 export type Category = {
@@ -14,160 +16,12 @@ export type Category = {
 
 export type Store = {
   name: string;
+  logo?: string; // Thêm logo field
   items: Category[];
 };
 
 export const menuData: Store[] = [
-  {
-    name: "Highland Coffee",
-    items: [
-      {
-        title: "MENU NGUYÊN BẢN",
-        items: [
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Tra_Thanh_Dao.jpg",
-            name: "Trà Thanh Đào",
-            price: "59,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Freeze_Caramel.jpg",
-            name: "Caramel Phin Freeze",
-            price: "69,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Tra_Thach_Dao.jpg",
-            name: "Trà Thạch Đào",
-            price: "59,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_KemDi.jpg",
-            name: "KemDi",
-            price: "39,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Cappuccino.jpg",
-            name: "Cappucino",
-            price: "99,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Latte.jpg",
-            name: "Latte",
-            price: "99,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Chanh_Da_Vien.jpg",
-            name: "Chanh Đá Viên",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Tac_Da_Vien.jpg",
-            name: "Tắc Đá Viên",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Freeze_Cookie___Cream.jpg",
-            name: "Cookies & Cream",
-            price: "69,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Chanh_Da_Xay.jpg",
-            name: "Chanh Đá Xay",
-            price: "55,000 VNĐ"
-          }
-        ]
-      },
-      {
-        title: "TINH HOA TRÀ HIGHLANDS",
-        items: [
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/2_SPECIALTY_TEA/thumbs/270_crop_Hot_Tea_Set.jpg",
-            name: "Set Trà Cao Cấp (Tùy Chọn Trà)",
-            price: "159,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/2_SPECIALTY_TEA/thumbs/270_crop_Tra_Qua_Mong_Anh_Dao.jpg",
-            name: "TRÀ QUẢ MỌNG ANH ĐÀO",
-            price: "79,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/2_SPECIALTY_TEA/thumbs/270_crop_Tra_Oi_Hong.jpg",
-            name: "TRÀ ỔI HỒNG",
-            price: "79,000 VNĐ"
-          }
-        ]
-      },
-      {
-        title: "DÒNG CÀ PHÊ ĐẶC BIỆT",
-        items: [
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/1_SPECIALTY_COFFEE/thumbs/270_crop_Cold_Brew_Milk_Foam.jpg",
-            name: "Cold Brew Milk Foam",
-            price: "79,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/1_SPECIALTY_COFFEE/thumbs/270_crop_Cold_Brew_Peach.jpg",
-            name: "Cold Brew Đào",
-            price: "79,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/1_SPECIALTY_COFFEE/thumbs/270_crop_Cold_Brew.jpg",
-            name: "Cold Brew",
-            price: "69,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Bac_Xiu.jpg",
-            name: "Bạc Xỉu Culi",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Phin_Sua_Da.jpg",
-            name: "Phin Culi Sữa Đá",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/3_MENU_NGUYEN_BAN/thumbs/270_crop_Phin_Den_Da.jpg",
-            name: "Phin Culi Đen Đá",
-            price: "49,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/HLCPOSTOFFICE_DRAFT/PNG_FINAL/1_SPECIALTY_COFFEE/thumbs/270_crop_Citrus_Cafe_De_Tonic.jpg",
-            name: "Citrus coffee detonic",
-            price: "89,000 VNĐ"
-          }
-        ]
-      },
-      {
-        title: "Freeze",
-        items: [
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__FREEZE_TRA_XANH.jpg",
-            name: "Freeze Trà Xanh",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__COOKIES_FREEZE.jpg",
-            name: "Cookies & Cream",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/04_2023/New_product/thumbs/270_crop_HLC_New_logo_5.1_Products__FREEZE_CHOCO.jpg",
-            name: "Freeze Sô-cô-la",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__CARAMEL_FREEZE_PHINDI.jpg",
-            name: "Caramel Phin Freeze",
-            price: "55,000 VNĐ"
-          },
-          {
-            imgUrl: "https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__CLASSIC_FREEZE_PHINDI.jpg",
-            name: "Classic Phin Freeze",
-            price: "55,000 VNĐ"
-          }
-        ]
-      }
-    ]
-  },
+  highlandMenu as Store,
   {
     name: "Phúc Long",
     items: [

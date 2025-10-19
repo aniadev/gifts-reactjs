@@ -1,0 +1,564 @@
+{
+  "name": "Highland Coffee",
+  "logo": "/highland-logo.png",
+  "items": [
+    {
+      "title": "Freeze",
+      "items": [
+        {
+          "name": "Freeze Mơ Mận Tây Bắc",
+          "price": "1đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-me30egdm3bph8e@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sở hữu vị ngọt thanh của mận chín đỏ hòa quyện cùng chút chua nhẹ đặc trưng từ mơ ume Nhật, tạo nên một hương vị vừa lạ vừa quen, đầy cuốn hút và khó quên."
+        },
+        {
+          "name": "Mua 1 Freeze tặng 1 Trà Sữa",
+          "price": "69.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfnfrexl8idlbf@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Freeze Trà Xanh - Đá Xay",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4qc0b3cqq5c9@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Món ngon mát lạnh từ vị trà xanh thêm thạch giòn thơm và kem béo ngậy. Phần trang trí có thể bị ảnh hưởng khi vận chuyển"
+        },
+        {
+          "name": "Freeze Sô Cô La - Đá Xay",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4qrgxusg4h60@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Thêm lạ khẩu vị cùng vị đăng đắng của Sô-cô-la trong Freezee Sô-cô-la. Phần trang trí có thể bị ảnh hưởng khi vận chuyển. "
+        },
+        {
+          "name": "Caramel Phin Freeze - Đá Xay",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4rh3t6a55t7b@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự cộng hưởng của hương cà phê đá xay và caramel, thêm kem sữa rưới sốt caramel bên trên. Phần kem có thể bị ảnh hưởng khi vận chuyển."
+        },
+        {
+          "name": "Freeze Kem Mây Dâu Tằm",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4sj8un03m5bc@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Lớp kem mây mềm mịn của Freeze sẽ đưa bạn đến một mùa hè thật bay bổng, gác lại những bộn bề ngày thường. "
+        },
+        {
+          "name": "Classic Phin Freeze - Đá Xay",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4rw5wmzmht1f@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự kết hợp giữa cà phê đá xay và caramel nhưng nhấn mạnh vào vị cà phê đậm đà. Phần kem có thể bị ảnh hưởng khi vận chuyển."
+        }
+      ]
+    },
+    {
+      "title": "Trà",
+      "items": [
+        {
+          "name": "Trà Mơ Mận Tây Bắc",
+          "price": "1đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-me30at3xjojl66@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sở hữu vị ngọt thanh của mận chín đỏ hòa quyện cùng chút chua nhẹ đặc trưng từ mơ ume Nhật, tạo nên một hương vị vừa lạ vừa quen, đầy cuốn hút và khó quên."
+        },
+        {
+          "name": "Combo Trà Chiều Highlands (1 người)",
+          "price": "79.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m43ektndpog77b@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Một combo Trà Bánh quá hoàn hảo cho bạn nhâm nhi mỗi xế chiều đây!"
+        },
+        {
+          "name": "Combo Trà Chiều Highlands",
+          "price": "139.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-maso3rd2cm8c12@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Trà Sen Vàng (Củ Năng)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4mrwm806ktf8@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Từ Ô Long kết hợp với hương sen thanh mát, thêm nguyên liệu củ năng giòn ngọt và lớp kem mềm mại."
+        },
+        {
+          "name": "Trà Sen Vàng (Sen)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4njmu18hb517@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Trà Ô long kết hợp với hương sen thanh mát, thêm đậm vị sen bằng hạt sen dẻo thơm và lớp kem mềm mại"
+        },
+        {
+          "name": "Trà Thanh Đào",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4oqy4zdrv1ed@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự hài hòa giữa vị trà cao cấp, những miếng đào ngọt giòn thêm chút hương thanh mát của sả, thoả mãn vị giác 100"
+        },
+        {
+          "name": "Trà Thạch Vải",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4o8ksl9ajlb1@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự kết hợp giữa quả vải mọng nước cùng trà đen và thạch vải giòn thơm hương vải"
+        },
+        {
+          "name": "Trà Xanh Đậu Đỏ",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4p2bc4kja943@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vị trà xanh đăng đắng thơm ngát, thêm độ ngọt vừa và mềm mại của đậu đỏ. Ngon ngọt nhưng không ngấy"
+        },
+        {
+          "name": "Trà Ngọc Trai Dâu Tằm",
+          "price": "59.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4phxhjxi6lc3@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Tận hưởng vị trà thanh nhẹ hòa quyện thật hoàn hảo với vị chua ngọt từ dâu tằm. Sự mềm mại của trái dâu tằm mọng nước kết hợp kết cấu giòn vui miệng của trân châu ngọc trai sẽ đem đến cho bạn trải nghiệm thật thú vị."
+        },
+        {
+          "name": "Trà Sen Vàng (Dừa)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m1y8hvpq92mzea@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Từ trà Ô Long kết hợp với hạt sen thanh mát và lớp kem mềm mại, nay thêm Trân châu dừa giòn thơm."
+        },
+        {
+          "name": "Trà Sen Vàng (Khoai Môn)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m1y8jbwzuztq40@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Từ trà Ô Long kết hợp với hạt sen thanh mát và lớp kem mềm mại, nay thêm Trân châu khoai môn dẻo thơm."
+        },
+        {
+          "name": "Bánh Phô Mai Trà Xanh Highlands",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4zk9yywp5953@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vị trà xanh đắng nhẹ thêm phô mai ít béo, giảm độ ngấy của bánh nhưng vẫn thơm hương trà và đủ độ ngọt."
+        }
+      ]
+    },
+    {
+      "title": "Trà Sữa",
+      "items": [
+        {
+          "name": "Trà Sữa Đài Loan",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-meyirmg66uww52@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Trà Sữa Hojicha",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-meyit7eaz6yp20@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Trà Sữa Trà Xanh",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-meyirihhx43pca@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Mua 1 Trà tặng 1 Trà Sữa",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfngc6cstyiz87@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Trà Sữa Mochi Hồng Kông",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-md38vz65qt7g39@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Được làm từ trà đen nguyên lá được ủ kỹ để giữ trọn hậu vị mạnh mẽ, hòa quyện cùng công thức pha chế riêng từ Highlands và lớp Mochi dai dẻo đặc trưng."
+        },
+        {
+          "name": "Trà sữa Mochi Hojicha",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-mbo16bd9413ifd@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự kết hợp của vị thơm nhẹ đến từ hương vị trà rang Nhật, hòa quyện cùng Mochi sóng sánh mới lạ khó cưỡng"
+        },
+        {
+          "name": "Trà sữa Mochi Trà Xanh",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-mbo0ubht3tzi27@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Giữ nguyên độ thơm của trà xanh Highlands từ Việt Nam, vị thanh mát kết hợp Mochi sóng sánh ngon miệng"
+        },
+        {
+          "name": "Trà Sữa Mochi Đài Loan",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-mbml6zwh8nasaf@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Trà Sữa Đài Loan mang đến trải nghiệm đậm đà với trà đen hảo hạng"
+        },
+        {
+          "name": "Trà Thạch Đào-Trà Sữa Highlands",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4nl48v2nj569@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự hoà quyện của hương thơm đào và độ thơm béo của sữa. Thêm ngon cùng topping miếng đào và thạch đào dai giòn."
+        }
+      ]
+    },
+    {
+      "title": "Cà Phê",
+      "items": [
+        {
+          "name": "PhinĐI Hạnh Nhân - Cà phê (Coffee)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4svlmu471d97@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Cà phê Phin với độ đậm cà phê vừa phải, đặc biệt thêm Hạnh nhân thơm bùi."
+        },
+        {
+          "name": "PhinĐI Kem Sữa - Cà phê (Coffee)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4tde62rs5p52@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Cà phê Phin với độ đậm cà phê vừa phải, đực biệt thêm Kem Sữa thơm béo."
+        },
+        {
+          "name": "PhinĐI Choco - Cà phê (Coffee)",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4trniljryla3@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Cà phê Phin kết hợp cùng Choco ngọt tan mang đến hương vị đắng nhẹ mà ngọt dịu."
+        },
+        {
+          "name": "Bạc Xỉu",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4vtd0wgll979@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Lựa chọn cho bạn \"nhẹ đô\" cà phê. Giảm nhẹ độ đắng cà phê, tăng thêm độ ngọt từ sữa đặc."
+        },
+        {
+          "name": "Cà Phê Phin Sữa Đá (Coffee)",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4xrln64ty9ba@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sản phẩm đặc trưng thương hiệu với nguyên liệu số 1 từ Hạt Robusta thêm Arabica, hoà quyện cùng sữa và đá vừa phải."
+        },
+        {
+          "name": "Cà Phê Phin Đen Đá (Coffee)",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4wk7orv7hdcf@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Ly Cà phê được pha hoàn toàn từ Phin, thêm đường đá nhưng vẫn cực đậm vị cà phê."
+        },
+        {
+          "name": "Cà Phê Phin Sữa Nóng (Coffee)",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4y3d3mgf4x02@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Nóng hổi! Dậy hương cà phê Robusta thêm Arabica, vừa nóng ấm, vừa đậm đà chất cà phê Phin"
+        },
+        {
+          "name": "Cà Phê Phin Đen Nóng (Coffee)",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4x9gk7u98t90@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Nóng hổi! Chắt lọc từng giọt cà phê ngon từ Phin, mang đến sự nóng ấm đậm đà cà phê!"
+        },
+        {
+          "name": "Cà Phê Sữa Lon Highlands",
+          "price": "30.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-mdesjaj1qi0c40@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Cà Phê Sữa Lon Highlands 235ml kèm ly đá"
+        }
+      ]
+    },
+    {
+      "title": "Combo",
+      "items": [
+        {
+          "name": "Combo Sáng Highlands (cỡ Nhỏ)",
+          "price": "39.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lys8cfldkae9a9@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Khởi đầu ngày mới thật hứng khởi từ hương vị Cà Phê đậm đà và tràn đầy năng lượng từ Bánh Mì Que nóng giòn nhé!"
+        },
+        {
+          "name": "Combo Sáng Highlands Mới",
+          "price": "59.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lydtxoydbnvl22@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sáng nhẹ nhàng nhưng đầy đủ chất, chọn ngay Phindi và Croissant thử nhé!"
+        },
+        {
+          "name": "Combo Tỉnh Táo Highlands",
+          "price": "59.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-m02vm54uysnjad@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Khởi đầu tuần mới đầy năng lượng với những ly cà phê hoàn hảo tại Highlands"
+        }
+      ]
+    },
+    {
+      "title": "Khác",
+      "items": [
+        {
+          "name": "Cookies & Cream - Đá Xay",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4r2z7akfq9cb@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Mát lạnh và không có cà phê ư? Có ngay sự kết hợp giữa bánh Oreo, sữa tươi và whipping cream! Phần kem có thể bị ảnh hưởng khi vận chuyển."
+        },
+        {
+          "name": "Bánh Mì Que Pate Highlands",
+          "price": "19.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4vk67klvhdfb@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Bánh nóng hổi, giòn giòn, kết hợp cùng chút beo béo ngầy ngậy của pa tê."
+        },
+        {
+          "name": "Bánh Mì Que Gà Phô Mai Highlands",
+          "price": "19.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4w3eql7r8hf6@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Bánh mì nóng giòn, béo ngậy vị gà phô mai, thích hợp nhâm nhi cùng trà."
+        },
+        {
+          "name": "Bánh Croissant Highlands 55gr",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ra0g-m8xgtab04dokf6@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vỏ giòn thơm bơ, xốp mịn mềm tan. Thưởng thức cùng ly Phin Sữa Đá mang đến nhiều trải nghiệm thú vị. Thử ngay!"
+        },
+        {
+          "name": "Bánh Bông Lan Trứng Muối",
+          "price": "39.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ra0g-m8xgl4svmmh0db@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Lớp bánh mềm mịn, thơm ngon. Nhân kem phô mai béo ngậy, đậm đà. Topping trứng muối mặn mà, cùng chà bông. Thích hợp dùng làm bữa sáng muộn. Hợp dùng với cà phê và trà nhờ sự hòa quyện giữa mặn và ngọt.\nBánh có thể sử dụng trực tiếp sau khi rã đông. Sẽ ngon hơn nếu làm nóng trước khi sử dụng"
+        },
+        {
+          "name": "Ham & Cheese Croissant",
+          "price": "59.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ra0g-m8xg6wj79s900d@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Croissant giòn thơm kết hợp với thịt nguội cao cấp và phô mai tan chảy.  Lựa chọn tiện lợi và đầy đủ năng lượng cho ngày làm việc của bạn."
+        },
+        {
+          "name": "Bánh Mì Nướng Teriyaki Gà",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mflcmfxoveo9c2@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Bánh Mì Nướng Gà Cay",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mflckf97usqxe4@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Bánh Mì Nướng Xúc Xích Phô Mai",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mflcjqko6mmm41@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Bánh Su Kem Highlands",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz52i2s37t7lfc@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Lớp vỏ mềm mịn, nhân kem thơm béo"
+        },
+        {
+          "name": "Bánh Phô Mai Caramel Highlands",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz50luabyi01e3@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Bánh mềm mịn, tan chảy với độ thơm béo của phô mai, thêm caramel bắt mắt và ngọt ngào."
+        },
+        {
+          "name": "Bánh Chuối Highlands",
+          "price": "29.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz51qucdxe3lec@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Món bánh truyền thống quen thuộc, với nguyên liệu 100% từ chuối tươi và nước cốt dừa nguyên chất.\n"
+        },
+        {
+          "name": "Bánh Mousse Cacao Highlands",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz515mz70s3xc4@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vị bánh ngọt dịu và mịn xốp với cốt bánh làm từ ca-cao Việt Nam và thêm lớp kem tươi mới."
+        },
+        {
+          "name": "Bánh Sữa Chua Phô Mai Highlands",
+          "price": "39.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz4yg1257qz148@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Bánh sữa chua phô mai mềm xốp thơm béo."
+        },
+        {
+          "name": "Bánh Tiramisu Highlands",
+          "price": "39.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m47n7txrocc0b0@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Bánh lạnh thơm mát với nguyên liệu ca-cao Việt Nam, thêm phô mai ít béo và hương thơm nhẹ nhàng của Rhum"
+        },
+        {
+          "name": "Bánh Phô Mai Chanh Dây Highlands",
+          "price": "35.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m4hni9ylckqve8@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vỏ bánh vàng sáng, hương vị kết hợp từ vị beo béo của phô mai cùng với vị chua nhẹ của chanh dây."
+        },
+        {
+          "name": "Bánh Bông Lan Castella",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-mb2nlv2v49sc32@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Bánh bông lan castella mềm mại"
+        },
+        {
+          "name": "Bánh Cuộn Vị Quế",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mflc69kvdki38d@resize_ss400x400!@crop_w400_h400_cT",
+          "description": ""
+        },
+        {
+          "name": "Americano",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz62go8fqmch37@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Cà phê espresso cùng tỉ lệ nước sôi thích hợp nhưng vẫn đậm đà vị cà phê."
+        },
+        {
+          "name": "Cappuccino",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz6416wk8uoda4@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Cà phê sữa đậm đà, vị cà phê đậm hơn Latte. Thêm sưã tươi và bọt sữa trang trí tỉ mỉ."
+        },
+        {
+          "name": "Latte",
+          "price": "65.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-mazqoct0f1so02@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Lựa chọn cho bạn \"nhẹ đô\" cà phê. Ly cà phê thơm ngon, thêm sữa tươi và bọt sữa trang trí tỉ mỉ."
+        },
+        {
+          "name": "Caramel Macciato",
+          "price": "69.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz63egmfp9cx0d@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Hương vị của cà phê espresso đăng đắng và sữa tươi ngọt dịu. Tạo hình trang trí tỉ mỉ bằng lớp bọt sữa."
+        },
+        {
+          "name": "Americano Đào",
+          "price": "55.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ra0g-m8kp84asoz2a24@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự kết hợp mới lạ giữa cà phê Americano tinh tế và đào đá xay chu ngọt thanh mát mang đến một trải nghiệm mới mẻ, sảng khoái"
+        },
+        {
+          "name": "Espresso",
+          "price": "45.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz64t384jkip6b@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Ly cà phê với công thức rang xay và pha chế đẳng cấp chuyên gia, nguyên liệu Robusta và Arabica hảo hạng."
+        },
+        {
+          "name": "Vaaang Cappuccino",
+          "price": "76.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m4t618wysml34d@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Được làm từ 100% hạt cà phê đặc sản Fine Robusta Việt Nam cao cấp từ vùng Đăk Lăk và Lâm Đồng, mang lại hương vị tinh tế, đậm đà, độc đáo."
+        },
+        {
+          "name": "Vaaang Americano",
+          "price": "51.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m4t5mry14spj48@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Được làm từ 100% hạt cà phê đặc sản Fine Robusta Việt Nam cao cấp từ vùng Đăk Lăk và Lâm Đồng, mang lại hương vị tinh tế, đậm đà, độc đáo."
+        },
+        {
+          "name": "Mocha",
+          "price": "69.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz62suiqczm537@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Ly cà phê với công thức rang xay và pha chế đẳng cấp chuyên gia, nguyên liệu Robusta và Arabica hảo hạng."
+        },
+        {
+          "name": "Vaaang Latte",
+          "price": "76.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7ras8-m4t65gtshnp238@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Được làm từ 100% hạt cà phê đặc sản Fine Robusta Việt Nam cao cấp từ vùng Đăk Lăk và Lâm Đồng, mang lại hương vị tinh tế, đậm đà, độc đáo."
+        },
+        {
+          "name": "Chanh Dây Đá Viên",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz66benwzuj1e6@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Hương chanh dây thơm mát, vị chua ngọt quen thuộc và sắc vàng bắt mắt."
+        },
+        {
+          "name": "Sô Cô La",
+          "price": "59.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz672m6ll6sh7f@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Đậm đà vị sô-cô-la, thêm đá trung hoà vị đăng đắng đặc trưng, thêm mát lạnh"
+        },
+        {
+          "name": "Tắc/Quất Đá Viên",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz67a9xg2fyld3@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vị tắc thơm mát, chua nhẹ cùng lượng đường đá vừa phải, mát lạnh tức thì."
+        },
+        {
+          "name": "Chanh Đá Xay",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz658vw0dft977@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vẫn vị chanh thơm, vị chua sảng khoái nhưng gấp đôi mát lạnh với đá xay."
+        },
+        {
+          "name": "Chanh Đá Viên",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz65uh2z1m4tea@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vị chanh thơm mát, chua nhẹ cùng lượng đá viên vừa phải, giải khát tức thì."
+        },
+        {
+          "name": "Chanh Nóng",
+          "price": "49.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-7r98o-lz66gv47jt5991@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Sự kết hợp giữa vị chua thanh mát và đường ngọt. Thức uống ấm nóng tốt cho sức khoẻ."
+        },
+        {
+          "name": "FREEPLAY Tumbler 750ml Hồng",
+          "price": "419.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijumd85c084a@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Đa năng cho người bận rộn. Dành cho những ai sáng đi làm – tối đi tập."
+        },
+        {
+          "name": "POWER Tumbler 550ml Nâu",
+          "price": "399.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijvkt2v4svdb@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho những người bận rộn, quyết đoán và luôn làm chủ cuộc chơi."
+        },
+        {
+          "name": "CHICHIC Tumbler 600ml Xanh",
+          "price": "389.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijua422vwo11@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho những cô nàng hiện đại, tinh tế và không ngại nổi bật."
+        },
+        {
+          "name": "CHICHIC Tumbler 600ml Hồng",
+          "price": "389.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijtyseyzv246@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho những cô nàng hiện đại, tinh tế và không ngại nổi bật."
+        },
+        {
+          "name": "SAVY Tumbler 480ml Hồng",
+          "price": "419.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijy4k28q2yfd@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Tưởng là phụ kiện, hóa ra là tumbler – nhỏ gọn, trendy và cực kỳ tiện dụng."
+        },
+        {
+          "name": "Sổ Tay Tinh Hoa Highlands Coffee",
+          "price": "154.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijyfl9lp8tfb@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Vẻ đẹp vượt thời gian, thanh lịch và tinh tế. Hoạ tiết hoa nổi nhẹ nhàng kết hợp cùng sắc đỏ đặc trưng của Highlands."
+        },
+        {
+          "name": "CHICHIC Tumbler 600ml Xanh Bạc Hà",
+          "price": "389.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijv3rpxte116@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho những cô nàng hiện đại, tinh tế và không ngại nổi bật."
+        },
+        {
+          "name": "POWER Tumbler 550ml Xanh",
+          "price": "399.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijuv8dwpvt74@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho những người bận rộn, quyết đoán và luôn làm chủ cuộc chơi."
+        },
+        {
+          "name": "BOSSY Tumbler 470ml Hồng",
+          "price": "399.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijvb9v8umm27@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho bạn – người không ngại bận rộn, luôn “on top” mọi thứ."
+        },
+        {
+          "name": "FREEPLAY Tumbler 750ml Xanh",
+          "price": "419.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijy0qzxiq3ea@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Đa năng cho người bận rộn. Dành cho những ai sáng đi làm – tối đi tập."
+        },
+        {
+          "name": "BOSSY Tumbler 470ml Tím",
+          "price": "399.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijvc8xlxxl7b@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho bạn – người không ngại bận rộn, luôn “on top” mọi thứ."
+        },
+        {
+          "name": "Sổ Tay Cá Chép Vàng Highlands Coffee",
+          "price": "154.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijvwsezvgq9b@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Lựa chọn hoàn hảo cho những ai yêu thích ghi lại ý tưởng một cách đầy phong cách."
+        },
+        {
+          "name": "POWER Tumbler 550ml Tím",
+          "price": "399.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijwy9gbci1bd@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Dành cho những người bận rộn, quyết đoán và luôn làm chủ cuộc chơi."
+        },
+        {
+          "name": "FREEPLAY Tumbler 750ml Vàng",
+          "price": "419.000đ",
+          "imgUrl": "https://mms.img.susercontent.com/vn-11134517-820l4-mfijyjyw3f9l6d@resize_ss400x400!@crop_w400_h400_cT",
+          "description": "Đa năng cho người bận rộn. Dành cho những ai sáng đi làm – tối đi tập."
+        }
+      ]
+    }
+  ]
+}

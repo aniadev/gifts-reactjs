@@ -177,7 +177,7 @@ export default function OrderForm({ selectedProduct }: OrderFormProps) {
                   <div className="relative">
                     <MessageSquare className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
                     <Textarea 
-                      placeholder="eg. đường đá, size SML các thứ" 
+                      placeholder="eg. đường đá, size SML các thứ, nếu biết quán nào ở gần thì note địa chỉ quán luôn nhée..." 
                       className="pl-10 min-h-[80px] bg-card border-border rounded-2xl resize-none"
                       {...field} 
                     />
