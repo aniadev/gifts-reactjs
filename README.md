@@ -72,12 +72,16 @@ Tạo file `.env` ở thư mục root của project:
 VITE_SUPABASE_PROJECT_ID="your-project-ref"
 VITE_SUPABASE_URL="https://your-project-ref.supabase.co"
 VITE_SUPABASE_PUBLISHABLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+
+# Admin password for Orders page
+VITE_ADMIN_PASSWORD="your-secure-password"
 ```
 
 **Thay thế các giá trị**:
 - `your-project-ref`: Thay bằng project ref của bạn
 - `https://your-project-ref.supabase.co`: Thay bằng Project URL
 - `eyJhbGci...`: Thay bằng anon public key
+- `your-secure-password`: Đặt password để bảo vệ trang `/orders` (ví dụ: `admin2024`)
 
 #### 3.3b. Cấu hình file `supabase/config.toml`
 
@@ -176,6 +180,7 @@ npm run preview
 ## 📱 Sử dụng
 
 ### 1. Trang cho chị em (/) - Public
+- 🎵 **Background music**: Nhạc nền tự động phát, có nút tắt/bật ở góc trên phải
 - Xem danh sách đồ uống theo cửa hàng & danh mục
 - Click chọn đồ uống yêu thích (highlight màu cam)
 - Điền form thông tin để nhận quà:
@@ -183,9 +188,11 @@ npm run preview
   - Địa chỉ nhận quà (bắt buộc)
   - Số điện thoại (bắt buộc, format Việt Nam)
   - Ghi chú (tùy chọn) - có thể gửi lời nhắn
-- Click **"Gửi đơn hàng"** để đăng ký
+- Click **"Nhận quà từ Hảiii"** để đăng ký
+- 🎉 **Popup chúc mừng 20/10**: Hiển thị sau khi gửi thành công
 
-### 2. Trang quản lý (/orders) - Admin Only
+### 2. Trang quản lý (/orders) - Admin Only 🔐
+- 🔒 **Protected**: Yêu cầu nhập password (từ `.env`)
 - **Xem danh sách**: Tất cả đăng ký nhận quà với thông tin đầy đủ
 - **Tìm kiếm**: Tìm theo tên, số điện thoại, tên đồ uống
 - **Thống kê**: 
@@ -195,12 +202,14 @@ npm run preview
 - **Xóa**: Click icon 🗑️ để xóa đăng ký trùng/spam
 - **Export CSV**: Click "Xuất Excel" để tải danh sách, chuẩn bị gửi quà
 - **Refresh**: Click icon 🔄 để cập nhật danh sách mới nhất
+- **Logout**: Nút đăng xuất ở góc trên phải
 
 ### 💡 Use Case
-1. **Chị em**: Vào trang chủ, chọn đồ uống yêu thích, điền thông tin
-2. **Admin (bạn)**: Vào `/orders`, kiểm tra danh sách đăng ký
-3. **Admin**: Export CSV để có danh sách địa chỉ, số điện thoại
-4. **Admin**: Gửi quà tặng đồ uống cho chị em 🎁
+1. **Chị em**: Vào trang chủ, nghe nhạc, chọn đồ uống yêu thích, điền thông tin
+2. **Admin (bạn)**: Vào `/orders`, nhập password để truy cập
+3. **Admin**: Xem, tìm kiếm, quản lý danh sách đăng ký
+4. **Admin**: Export CSV để có danh sách địa chỉ, số điện thoại
+5. **Admin**: Gửi quà tặng đồ uống cho chị em 🎁
 
 ## 🗂️ Cấu trúc thư mục
 
@@ -248,9 +257,80 @@ git push origin main
    - `VITE_SUPABASE_PROJECT_ID`
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_PUBLISHABLE_KEY`
+   - `VITE_ADMIN_PASSWORD` ⚠️ **Quan trọng**: Password để truy cập `/orders`
 5. Click **"Deploy"**
 
 File `vercel.json` đã được cấu hình sẵn để fix lỗi 404 với React Router.
+
+## 🔐 Admin Password
+
+Trang `/orders` được bảo vệ bằng password để chỉ admin mới truy cập được.
+
+### Cách đổi password:
+
+1. **Local development**: Sửa trong file `.env`
+   ```bash
+   VITE_ADMIN_PASSWORD="your-new-password"
+   ```
+
+2. **Production (Vercel)**: 
+   - Vào Vercel Dashboard > Project > Settings > Environment Variables
+   - Edit `VITE_ADMIN_PASSWORD`
+   - Redeploy
+
+### Đăng nhập:
+1. Vào `https://your-domain.vercel.app/orders`
+2. Nhập password
+3. Click "Đăng nhập"
+
+Password được lưu trong **sessionStorage**, không cần nhập lại khi refresh page (cho đến khi đóng browser).
+
+### Logout:
+Click nút **"Đăng xuất"** ở góc trên phải trang Orders.
+
+⚠️ **Lưu ý bảo mật**: Đây là client-side protection, không bảo mật tuyệt đối. Để bảo mật cao hơn, cần implement backend authentication.
+
+## 🎵 Background Music
+
+Trang chủ có nhạc nền tự động phát khi user vào.
+
+### Setup nhạc:
+
+1. **Download nhạc** (copyright-free):
+   - [Pixabay Music](https://pixabay.com/music/)
+   - [Bensound](https://www.bensound.com/)
+   - [YouTube Audio Library](https://www.youtube.com/audiolibrary)
+
+2. **Đặt file vào `public/`**:
+   ```
+   public/
+   └── background-music.mp3
+   ```
+
+3. **Restart server**: `npm run dev`
+
+### Features:
+- ✅ Auto-play khi vào trang (nếu browser cho phép)
+- ✅ Loop: Nhạc lặp lại liên tục
+- ✅ Volume: Mặc định 30%
+- ✅ Toggle button: Nút tắt/bật ở góc trên phải (Fixed position)
+- ✅ Cleanup: Dừng nhạc khi rời trang
+
+### Tùy chỉnh:
+
+**Đổi volume** (trong `src/pages/Index.tsx`):
+```typescript
+audioRef.current.volume = 0.3; // 0.0 - 1.0 (30%)
+```
+
+**Đổi file nhạc**:
+```typescript
+audioRef.current = new Audio("/your-music.mp3");
+```
+
+Chi tiết đầy đủ trong file `BACKGROUND_MUSIC.md`.
+
+⚠️ **Note**: Browser có thể block autoplay. User cần click nút Volume một lần để bật nhạc thủ công.
 
 ## 🔐 Bảo mật
 
@@ -297,6 +377,32 @@ File `vercel.json` đã được cấu hình sẵn để fix lỗi 404 với Rea
 **Giải pháp**:
 1. Vào Supabase Dashboard > SQL Editor
 2. Chạy migration `20251019_add_product_id_column.sql`
+
+### Không vào được trang /orders (hiện form login)
+
+**Nguyên nhân**: Chưa set password hoặc password sai
+
+**Giải pháp**:
+1. Check `.env` có `VITE_ADMIN_PASSWORD` chưa
+2. Restart dev server: Stop terminal (Ctrl+C), chạy lại `npm run dev`
+3. Nhập đúng password khi login (mặc định: `aniadev2024`)
+4. **Để logout**: Bấm nút "Đăng xuất" trong trang /orders
+
+### Nhạc không tự động chạy
+
+**Nguyên nhân 1**: Chưa có file `public/background-music.mp3`
+
+**Giải pháp**:
+1. Download nhạc copyright-free từ Pixabay hoặc Bensound
+2. Đổi tên file thành `background-music.mp3`
+3. Đặt vào folder `public/`
+4. Restart dev server
+
+**Nguyên nhân 2**: Browser block autoplay (Chrome, Safari policies)
+
+**Giải pháp**:
+- Bấm nút Volume (🔊) ở góc trên phải để bật nhạc thủ công
+- Browser sẽ nhớ preference, lần sau tự động chạy
 
 ### Lỗi 404 khi deploy Vercel
 
