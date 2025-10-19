@@ -25,20 +25,20 @@
 
 ### 1. Clone repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/aniadev/gifts-reactjs
 cd gifts-reactjs
-\`\`\`
+```
 
 ### 2. Install dependencies
 
-\`\`\`bash
+```bash
 npm install
 # hoặc
 pnpm install
 # hoặc
 bun install
-\`\`\`
+```
 
 ### 3. Setup Supabase Database
 
@@ -67,12 +67,12 @@ Sau khi project được tạo:
 
 Tạo file `.env` ở thư mục root của project:
 
-\`\`\`bash
+```bash
 # Copy từ .env.example hoặc tạo mới
 VITE_SUPABASE_PROJECT_ID="your-project-ref"
 VITE_SUPABASE_URL="https://your-project-ref.supabase.co"
 VITE_SUPABASE_PUBLISHABLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-\`\`\`
+```
 
 **Thay thế các giá trị**:
 - `your-project-ref`: Thay bằng project ref của bạn
@@ -83,9 +83,9 @@ VITE_SUPABASE_PUBLISHABLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 
 Tạo hoặc cập nhật file `supabase/config.toml`:
 
-\`\`\`toml
+```toml
 project_id = "your-project-ref"
-\`\`\`
+```
 
 **Thay thế**:
 - `your-project-ref`: Thay bằng project ref giống như trong `.env`
@@ -105,26 +105,26 @@ project_id = "your-project-ref"
 **Chạy lần lượt 3 migrations:**
 
 ##### Migration 1: Tạo bảng orders
-\`\`\`sql
+```sql
 -- Copy nội dung từ: supabase/migrations/20251019103023_11504804-d5ca-44e7-8cc1-13f57cc68b3d.sql
 -- Paste vào SQL Editor và Run
-\`\`\`
+```
 
 ##### Migration 2: Thêm RLS policies (cho phép truy cập dữ liệu)
-\`\`\`sql
+```sql
 -- Copy nội dung từ: supabase/migrations/20251019_add_select_policy.sql
 -- Paste vào SQL Editor và Run
-\`\`\`
+```
 
 ##### Migration 3: Thêm cột product_id
-\`\`\`sql
+```sql
 -- Copy nội dung từ: supabase/migrations/20251019_add_product_id_column.sql
 -- Paste vào SQL Editor và Run
-\`\`\`
+```
 
 **Option 2: Sử dụng Supabase CLI**
 
-\`\`\`bash
+```bash
 # Install Supabase CLI (nếu chưa có)
 npm install -g supabase
 
@@ -136,7 +136,7 @@ supabase link --project-ref your-project-ref
 
 # Push migrations lên database
 supabase db push
-\`\`\`
+```
 
 #### 3.5. Kiểm tra database
 
@@ -161,17 +161,17 @@ supabase db push
 
 ### Development mode
 
-\`\`\`bash
+```bash
 npm run dev
 # Mở http://localhost:8080
-\`\`\`
+```
 
 ### Build production
 
-\`\`\`bash
+```bash
 npm run build
 npm run preview
-\`\`\`
+```
 
 ## 📱 Sử dụng
 
@@ -204,7 +204,7 @@ npm run preview
 
 ## 🗂️ Cấu trúc thư mục
 
-\`\`\`
+```
 canvas-to-data/
 ├── src/
 │   ├── components/          # React components
@@ -227,17 +227,17 @@ canvas-to-data/
 ├── vercel.json            # Vercel deployment config
 ├── .env                   # Environment variables (local)
 └── package.json
-\`\`\`
+```
 
 ## 🚀 Deploy lên Vercel
 
 ### 1. Push code lên GitHub
 
-\`\`\`bash
+```bash
 git add .
 git commit -m "Initial commit"
 git push origin main
-\`\`\`
+```
 
 ### 2. Deploy trên Vercel
 
@@ -259,13 +259,13 @@ File `vercel.json` đã được cấu hình sẵn để fix lỗi 404 với Rea
 **Cho production**, bạn nên:
 
 1. **Enable Authentication**:
-   \`\`\`bash
+   ```bash
    # Vào Supabase Dashboard > Authentication
    # Enable Email provider hoặc Google/GitHub OAuth
-   \`\`\`
+   ```
 
 2. **Update RLS Policies**:
-   \`\`\`sql
+   ```sql
    -- Chỉ cho phép user đã login
    DROP POLICY IF EXISTS "Anyone can view orders" ON public.orders;
    
@@ -275,7 +275,7 @@ File `vercel.json` đã được cấu hình sẵn để fix lỗi 404 với Rea
    USING (auth.uid() IS NOT NULL);
    
    -- Tương tự cho INSERT, UPDATE, DELETE
-   \`\`\`
+   ```
 
 3. **Rate limiting**: Enable trên Supabase Settings
 
@@ -307,10 +307,10 @@ File `vercel.json` đã được cấu hình sẵn để fix lỗi 404 với Rea
 ### TypeScript error: "Property product_id does not exist"
 
 **Giải pháp**:
-\`\`\`bash
+```bash
 # Restart TypeScript server
 # VS Code: Ctrl+Shift+P > "TypeScript: Restart TS Server"
-\`\`\`
+```
 
 ## 📚 Tài liệu tham khảo
 
