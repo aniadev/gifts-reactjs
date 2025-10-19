@@ -11,6 +11,12 @@ import { toast } from "sonner";
 import { Heart, MapPin, Phone, MessageSquare } from "lucide-react";
 import { SelectedProduct } from "@/pages/Index";
 import { Card } from "@/components/ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 const formSchema = z.object({
   customerName: z.string().trim().min(1, "Tên không được để trống").max(100),
@@ -28,6 +34,8 @@ type OrderFormProps = {
 
 export default function OrderForm({ selectedProduct }: OrderFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showCongrats, setShowCongrats] = useState(false);
+  const [customerName, setCustomerName] = useState("");
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -69,7 +77,12 @@ export default function OrderForm({ selectedProduct }: OrderFormProps) {
       if (error) throw error;
 
       toast.success("Đơn hàng đã được gửi thành công!");
+      
+      // Hiển thị popup chúc mừng 20/10
+      setCustomerName(data.customerName);
+      setShowCongrats(true);
       form.reset();
+      
     } catch (error) {
       console.error("Error submitting order:", error);
       toast.error("Có lỗi xảy ra. Vui lòng thử lại!");
@@ -197,6 +210,38 @@ export default function OrderForm({ selectedProduct }: OrderFormProps) {
           </Button>
         </form>
       </Form>
+
+      {/* Popup chúc mừng 20/10 */}
+      <Dialog open={showCongrats} onOpenChange={setShowCongrats}>
+        <DialogContent className="max-w-sm mx-auto rounded-3xl p-0 overflow-hidden border-0">
+          <div className="bg-gradient-to-br from-pink-50 via-white to-rose-50 p-6">
+            <DialogHeader className="space-y-4">
+              <div className="flex justify-center gap-2 text-4xl">
+                🌷 🌸 🌹 🌺 🌷
+              </div>
+              
+              <DialogTitle className="text-center text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">
+                Chúc mừng 20-10! 🎉
+              </DialogTitle>
+            </DialogHeader>
+            
+            <div className="mt-6 space-y-4 text-center">
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Chúc {customerName} xinh đẹp 20-10 tràn ngập niềm vui, luôn rạng rỡ và thành công trong mọi lĩnh vực. 
+                Chúc luôn tươi trẻ, xinh tươi và gặt hái nhiều thành tựu trong cuộc sống! 🥰
+                Quà sẽ sớm được gửi nhaaaa!!!!
+              </p>
+              
+              <Button
+                onClick={() => setShowCongrats(false)}
+                className="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white rounded-full py-6 text-base font-semibold shadow-lg"
+              >
+                From Ania with ❤️
+              </Button>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
