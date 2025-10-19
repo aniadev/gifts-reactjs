@@ -26,8 +26,8 @@
 ### 1. Clone repository
 
 \`\`\`bash
-git clone https://github.com/aniadev/canvas-to-data.git
-cd canvas-to-data
+git clone https://github.com/aniadev/gifts-reactjs
+cd gifts-reactjs
 \`\`\`
 
 ### 2. Install dependencies
