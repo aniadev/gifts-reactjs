@@ -22,13 +22,34 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 const products = [
-  "Highland Coffee",
-  "Phúc Long",
-  "Koithé",
-  "Phê la",
-  "Katinat",
-  "Gì cũng được",
-  "Khác",
+  // Highland Coffee Menu
+  "Muffin",
+  "Pastry",
+  "Bánh Mì",
+  "Cheese Cakes",
+  "Trà Thanh Đào",
+  "Caramel Phin Freeze",
+  "Trà Thạch Đào",
+  "KemDi",
+  "Cappucino",
+  "Latte",
+  "Chanh Đá Viên",
+  "Tắc Đá Viên",
+  "Cookies & Cream",
+  "Chanh Đá Xay",
+  "Set Trà Cao Cấp (Tùy Chọn Trà)",
+  "TRÀ QUẢ MỌNG ANH ĐÀO",
+  "TRÀ ỔI HỒNG",
+  "Cold Brew Milk Foam",
+  "Cold Brew Đào",
+  "Cold Brew",
+  "Bạc Xỉu Culi",
+  "Phin Culi Sữa Đá",
+  "Phin Culi Đen Đá",
+  "Citrus coffee detonic",
+  "Freeze Trà Xanh",
+  "Freeze Sô-cô-la",
+  "Classic Phin Freeze",
 ];
 
 export default function OrderForm() {
