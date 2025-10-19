@@ -32,7 +32,7 @@ const Index = () => {
       <main className="pb-8 relative">
         <OrderForm selectedProduct={selectedProduct} />
         {/* Dropdown chọn quán */}
-        <div className="w-full max-w-md mx-auto px-6 mb-6">
+        <div className="w-full max-w-md mx-auto px-4 mb-6 mt-4">
           <label className="text-sm font-medium text-foreground mb-2 block">
             Chọn quán
           </label>

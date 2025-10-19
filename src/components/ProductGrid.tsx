@@ -48,7 +48,7 @@ export default function ProductGrid({ onProductSelect, selectedProduct, selected
   };
 
   return (
-    <div className="w-full max-w-md mx-auto px-6 pb-8">
+    <div className="w-full max-w-md mx-auto px-4 pb-8">
       <h2 className="text-lg font-semibold text-foreground mb-4 text-center">
         {selectedStore ? `Món ${selectedStore}` : 'Chọn quán để xem món'}
       </h2>
